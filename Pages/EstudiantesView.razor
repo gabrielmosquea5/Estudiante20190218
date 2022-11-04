@@ -1,0 +1,107 @@
+@page "/estudiante"
+@using System;
+
+<PageTitle>Estudiante</PageTitle>
+
+<h1 style="text-align:center ;">Registro de Estudiante</h1>
+<body>
+<form class="forms">
+  <IMG SRC="https://img.icons8.com/ios/500/student-registration.png" style="width:250px ;" ALIGN=RIGHT>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="txtNombre">Nombres</label>
+      <input name="txtNombre" id="txtNombre" type="text" class="form-control" placeholder="Nombres" required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="txtApellidos" >Apellidos</label>
+      <input name="txtApellidos"  type="text" class="form-control"  placeholder="Apellidos" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="txtFN">Fecha Nacimiento</label>
+    <input style="width: 285px;" name="txtFNa" id="txtFN"  type="date" class="form-control"  placeholder="Fecha Nacimeinto" required>
+  </div>
+  <div class="form-group">
+    <label for="txtMatricula">Matricula</label>
+    <input style="width: 285px;" name="txtMatricula" id="txtMatricula"  type="text" class="form-control"  placeholder="Matricula" required>
+  </div>
+    <div class="form-group col-md-4">
+      <label for="txtCarrera">Carrera</label>
+      <input style="width: 285px;" name="txtCarrera" id="txtCarrera" type="text" class="form-control"  placeholder="Carrera" required>
+    </div>
+    <br>
+  <button type="submit" class="btn btn-primary">Registrar</button>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Matricula</th>
+            <th>Carrera</th>
+
+        </tr>
+    </thead>
+    </table>
+</body>
+<style>
+*{box-sizing:border-box;}
+
+form{
+	width:600px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:auto;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form button[type="submit"]:hover{
+	cursor:pointer;
+  background-color: darkblue;
+  text-align: center;
+  
+  
+}
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
+
+
+</style>
