@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 156013028,
-        "Kind": "Components.Component",
-        "Name": "Estudiante20190218.Pages.EstudiantesView",
-        "AssemblyName": "Estudiante20190218",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EstudiantesView"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Estudiante20190218.Pages.EstudiantesView"
-        }
-      },
-      {
-        "HashCode": 1486084705,
-        "Kind": "Components.Component",
-        "Name": "Estudiante20190218.Pages.EstudiantesView",
-        "AssemblyName": "Estudiante20190218",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Estudiante20190218.Pages.EstudiantesView"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Estudiante20190218.Pages.EstudiantesView",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1587390846,
         "Kind": "Components.Component",
         "Name": "Estudiante20190218.Pages.Index",
@@ -78,35 +45,35 @@
         }
       },
       {
-        "HashCode": -1161538148,
+        "HashCode": 156013028,
         "Kind": "Components.Component",
-        "Name": "Estudiante20190218.App",
+        "Name": "Estudiante20190218.Pages.EstudiantesView",
         "AssemblyName": "Estudiante20190218",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "EstudiantesView"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Estudiante20190218.App"
+          "Common.TypeName": "Estudiante20190218.Pages.EstudiantesView"
         }
       },
       {
-        "HashCode": -2074368775,
+        "HashCode": 1486084705,
         "Kind": "Components.Component",
-        "Name": "Estudiante20190218.App",
+        "Name": "Estudiante20190218.Pages.EstudiantesView",
         "AssemblyName": "Estudiante20190218",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Estudiante20190218.App"
+            "TagName": "Estudiante20190218.Pages.EstudiantesView"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Estudiante20190218.App",
+          "Common.TypeName": "Estudiante20190218.Pages.EstudiantesView",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -289,6 +256,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Estudiante20190218.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1161538148,
+        "Kind": "Components.Component",
+        "Name": "Estudiante20190218.App",
+        "AssemblyName": "Estudiante20190218",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Estudiante20190218.App"
+        }
+      },
+      {
+        "HashCode": -2074368775,
+        "Kind": "Components.Component",
+        "Name": "Estudiante20190218.App",
+        "AssemblyName": "Estudiante20190218",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Estudiante20190218.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Estudiante20190218.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
