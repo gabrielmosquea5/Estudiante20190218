@@ -2,9 +2,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System;
 
-namespace  Estudiantes.Data.Models;
+namespace  Estudiante.Data.Models;
 
-public class Estudiante
+public class Estudiantes
 {
     [Key]
     public int estudianteID { get; set; }
@@ -14,8 +14,8 @@ public class Estudiante
     public string? Carrera { get; set; }
     public double Matricula { get; set; }
 
-    public static Estudiante Crear(string nombres, string apellidos, DateTime fechanacimiento, string carrera, double matricula){
-        return new Estudiante()
+    public static Estudiantes Crear(string nombres, string apellidos, DateTime fechanacimiento, string carrera, double matricula){
+        return new Estudiantes()
         {
             estudianteID = 0,
             Nombres = nombres,

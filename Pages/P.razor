@@ -1,0 +1,42 @@
+@page "/BD"
+
+<PageTitle>Estudiante</PageTitle>
+<h1 style="text-align:center ;">Registro de pe</h1>
+
+<form class="forms">
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="txtNombre">Nombre</label>
+      <input name="txtNombre" id="txtNombre" type="text" class="form-control" placeholder="Inrese su Nombre" required>
+    </div>
+   <div class="form-group col-md-6">
+      <label for="txtApellidos" >Apellido</label>
+      <input name="txtApellidos"  type="text" class="form-control"  placeholder="Ingrese su Apellido" required>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Registrar</button>
+ </form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            
+        </tr>
+    </thead>
+</table>
+   
+  
+
+@code{
+    public int PID  {get; set;}
+    public string Nombres  {get; set;} = null!;
+    public string Apellidos  {get; set;}= null!;
+
+   
+
+
+}

@@ -1,13 +1,17 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-//using Estudiante20190218.Data.Models;
-
+using Microsoft.EntityFrameworkCore;
+using Estudiante20190218;
+using Estudiante20190218.Data;
+using Estudiante20190218.Data.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-//builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSqlite<GabrielDbContext>("Data Source=.//Data//Context//localDB.sqlite");
+builder.Services.AddScoped<GabrielDbContext,GabrielDbContext>();
 
 var app = builder.Build();
 
@@ -26,6 +30,12 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.MapBlazorHub();
-app.MapFallbackToPage("/_Host");
+
+var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
+ using (var scope = scopeFactory.CreateScope()) 
+ { var db = scope.ServiceProvider.GetRequiredService<GabrielDbContext>();
+  if (db.Database.EnsureCreated()) {
+
+} } 
 
 app.Run();

@@ -8,49 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Estudiante20190218
 build_property.RootNamespace = Estudiante20190218
-build_property.ProjectDir = C:\Estudiante20190218\
+build_property.ProjectDir = c:\Estudiante20190218\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Estudiante20190218
+build_property.MSBuildProjectDirectory = c:\Estudiante20190218
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Estudiante20190218/App.razor]
+[c:/Estudiante20190218/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/Pages/EstudiantesView.razor]
+[c:/Estudiante20190218/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Estudiante20190218/Pages/EstudiantesView.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNWaWV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/Pages/Index.razor]
+[c:/Estudiante20190218/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Estudiante20190218/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/Shared/SurveyPrompt.razor]
+[c:/Estudiante20190218/Pages/P.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Estudiante20190218/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/_Imports.razor]
+[c:/Estudiante20190218/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/Shared/MainLayout.razor]
+[c:/Estudiante20190218/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-psmlr46jwc
 
-[C:/Estudiante20190218/Shared/NavMenu.razor]
+[c:/Estudiante20190218/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-smb7oz9h63
 
-[C:/Estudiante20190218/Pages/Error.cshtml]
+[c:/Estudiante20190218/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/Pages/_Host.cshtml]
+[c:/Estudiante20190218/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Estudiante20190218/Pages/_Layout.cshtml]
+[c:/Estudiante20190218/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
